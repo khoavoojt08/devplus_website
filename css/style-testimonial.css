@@ -1,0 +1,23 @@
+.testimonial-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(img/testimonial/test-bg-aliments.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff7f5;
+}
+
+.testi-row {
+    width: 100%;
+    display: flex;
+}
+
+.testi-col-left {
+    float: left;
+    width: 50%;
+}
+
+.testi-col-right {
+    float: right;
+    width: 50%;
+}
