@@ -229,21 +229,20 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center; 
 }
 
-.slider-text-column,
-.slider-image-column {
-    padding: 0 15px;
+.slider-text-column, .slider-image-column {
+    flex: 1; 
+    min-width: 50%; 
+    max-width: 50%; 
 }
 
-.slider-text-column {
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-}
-
-.slider-image-column {
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+.slider-img img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
 }
 
 #home h1,
