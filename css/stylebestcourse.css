@@ -28,7 +28,6 @@
 }
 
 .box-courses {
-
     display: flex;
     justify-content: center;
     align-content: center;
@@ -62,7 +61,6 @@
 .courses-area-fix {
     margin-top: 100px;
 }
-
 
 @media only screen and (max-width: 768px) {
     .section-title-course {
@@ -126,18 +124,16 @@
     .box-courses .text h3 {
         font-size: 22px;
     }
-
-
 }
 
-@media (min-width:321px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
     .courses-area-fix {
         margin-top: 1000px;
     }
 
     .course-slide {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -150,7 +146,6 @@
         padding-left: 250px;
         padding-right: 250px;
     }
-
 }
 
 .courses-img1 {
