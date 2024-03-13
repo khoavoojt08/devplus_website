@@ -47,25 +47,35 @@
     padding-right: 165px;
 }
 
+.section-title-blog h5{
+    display: flex;
+    justify-content: center;
+}
+
+.section-title-blog h2{
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
     .row-blog2{
         display: block;
     }
-    .padding-ourblog   {
-        padding-left:50px;
+   .padding-ourblog   {
+        padding-left:26%;
     }
-    .padding-ourblog2{
-        padding-left: 50px;
+    .padding-ourblog2{ 
+        padding-left: 26%;
     }
     .padding-ourblog3{
-        padding-left: 50px;
+        padding-left: 26%;
     }
-    .section-title h2{
-        width: 941px;
-        padding-right: 200px;
-    }
-    .section-title{
-        padding-top: 10px;
-    }
+
+}
+
+@media only screen and (max-width: 320px) {
+  #blog {
+    margin-top: 880px;
+  }
 
 }
