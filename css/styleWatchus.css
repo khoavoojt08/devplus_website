@@ -156,7 +156,9 @@ section:hover .section-title h2::before {
 
 /* mobile */
 @media only screen and (max-width: 768px) {
-    body {
+
+    .video-area {
+        margin-top: 800px;
         .video-img {
             position: relative;
             overflow: hidden;
