@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+/* up-eventes*/
+
+.container-event{
+    display: flex;
+    flex-direction: column;
+}
+.eventes-box {
+    display: flex;
+    margin-bottom: 30px;
+}
+.eventes-box .date-box {
+    width: 320px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.08);
+    margin-right: 30px;
+    text-align: center;
+    padding: 30px 30px;
+    position: relative;
+}
+.top-event h2 {
+    font-size: 48px;
+    padding-bottom: 0;
+    margin: 0 0 10px 0;
+    position: relative;
+
+}
+
+.top-event h5{
+    color: #fe8366;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.top-event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.row-event{
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    /* gap: 16px; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.date-box{
+
+    border: #fe8366;
+}
+
+.date-box h3{
+    color: #fe8366;
+    font-size: 50px;
+}
+
+.date-box h5{
+    color: black;
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+
+.text-event h5{
+    font-size: 18px;
+}
+.text-event h5 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+.text-event ul{
+    display: flex;
+    gap: 16px;
+    
+}
+.text-event li{
+    list-style-type: none;
+    color: #fe8366;
+}
+
+
+.eventes-box .date-box::before{
+    content: "";
+    width: 80%;
+    height: 80%;
+    left: 18px;
+    border: 2px dashed #fe8366;
+    position: absolute;
+    top: 16px;
+    border-radius: 10px
+}
+
+.bottom-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-event{
+    background-color: #fe8366;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.slider-event a{
+    color: white;
+    text-decoration: none;
+}
+
+.eventes-area{
+    background-image: url(../../img/event/event-bg-aliments.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+
+@media (max-width: 768px) {
+    .row-event{
+        grid-template-columns: repeat(1,10fr);
+    }
+    .eventes-box {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+        .eventes-box .date-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+        .eventes-box .date-box::before {
+        width: 89%;
+    }
+}
