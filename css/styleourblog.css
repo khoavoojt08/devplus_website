@@ -65,17 +65,17 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 912px) {
+@media (min-width: 769px) and (max-width: 912px) {
     .padding-ourblog {
         margin-left: -100px;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width:321px) and (max-width: 768px) {
 
     .single-post1 {
-        margin-left: 40px;
+        margin-left: -40px;
     }
     .row-blog2{
         display: block;
