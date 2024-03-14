@@ -47,30 +47,33 @@
     column-gap: 1px;
     row-gap: 20px;
     padding-top: 50px;
+    padding-left: 40px;
   }
   .service-h2 {
     font-size: 30px;
     font-weight: 600;
     font-style: sans-serif;
-    width: 690px;
+    width: 650px;
     color: #010f2f;
     margin: 0px 0px 8px;
+    padding-left: 50px;
   }
   .service-p {
     font-size: 20px;
     font-weight: 400;
     font-style: sans-serif;
-
-    width: 690px;
+    width: 600px;
     padding-top: 30px;
     padding-bottom: 20px;
     color: #010f2f;
+    padding-left: 50px;
   }
   .service-h5 {
     color: #fe8366;
     padding-top: 40px;
     font-style: sans-serif;
     font-size: 22px;
+    padding-left: 50px;
   }
   .service-a {
     text-decoration: none;
@@ -80,6 +83,9 @@
   }
   .service-btn {
     text-decoration: none;
+  }
+  .btn-service {
+    padding-left: 50px;
   }
 }
 /* mobile */
@@ -167,5 +173,24 @@
   }
   .service-btn {
     text-decoration: none;
+  }
+}
+@media (max-width: 600px) {
+  .service-p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: sans-serif;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #010f2f;
+  }
+  .service-h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: sans-serif;
+    width: 500px;
+    color: #010f2f;
+    margin: 0px 0px 8px;
   }
 }
