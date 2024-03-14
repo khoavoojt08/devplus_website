@@ -1,0 +1,123 @@
+/* featured-courses*/
+.courses-area-fix {}
+
+.section-title-course {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title-course h5 {
+    color: #fe8366;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+}
+
+.section-title-course h2 {
+    color: #010f2e;
+    font-size: 48px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.featured-courses-active {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 90px;
+}
+
+.box-courses {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.featured-courses-active {
+    margin: 0 -250px;
+}
+
+.box-courses img {
+    border-radius: 10px;
+    width: 625px;
+}
+
+.box-courses .text {
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+
+.box-courses .text h5,
+.box-courses .text h3 {
+    color: #fff;
+}
+
+.box-courses .text h3 {
+    font-size: 22px;
+}
+
+
+@media (min-width:321px) and (max-width: 768px) {
+    .section-title-course {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .section-title-course h5 {
+        color: #fe8366;
+        font-size: 18px;
+        font-family: 'Jost', sans-serif;
+        font-style: normal;
+    }
+
+    .section-title-course h2 {
+        color: #010f2e;
+        font-size: 48px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 700;
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    .featured-courses-active {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px 90px;
+    }
+
+    .box-courses {
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .featured-courses-active {
+        margin: 0 -250px;
+    }
+
+    .box-courses img {
+        border-radius: 10px;
+        width: 625px;
+    }
+
+    .box-courses .text {
+        position: absolute;
+        bottom: 0;
+        padding: 30px;
+    }
+
+    .box-courses .text h5,
+    .box-courses .text h3 {
+        color: #fff;
+    }
+
+    .box-courses .text h3 {
+        font-size: 22px;
+    }
+}
