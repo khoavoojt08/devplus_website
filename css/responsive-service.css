@@ -137,7 +137,6 @@
   }
   .container-box {
     display: block;
-
     column-gap: 1px;
     row-gap: 20px;
     padding-top: 50px;
@@ -184,13 +183,40 @@
     padding-top: 30px;
     padding-bottom: 20px;
     color: #010f2f;
+    padding-left: 30px;
   }
   .service-h2 {
     font-size: 30px;
     font-weight: 600;
     font-style: sans-serif;
     width: 500px;
+    padding-left: 30px;
     color: #010f2f;
     margin: 0px 0px 8px;
+  }
+  .services-title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 50%;
+  }
+  .service-h5 {
+    color: #fe8366;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-style: sans-serif;
+    font-size: 22px;
+  }
+  .btn-service {
+    padding-left: 30px;
+  }
+  .container-box {
+    display: grid;
+    grid-template: auto auto / auto auto;
+    column-gap: 1px;
+    row-gap: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
   }
 }
