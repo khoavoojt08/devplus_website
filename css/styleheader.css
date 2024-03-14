@@ -1,6 +1,7 @@
 /* Base styles */
 body {
     font-family: 'Arial', sans-serif; /* This is a generic font, match with the actual font used */
+    position: relative;
   }
   
   /* Logo styles */
