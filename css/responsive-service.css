@@ -47,30 +47,33 @@
     column-gap: 1px;
     row-gap: 20px;
     padding-top: 50px;
+    padding-left: 40px;
   }
   .service-h2 {
     font-size: 30px;
     font-weight: 600;
     font-style: sans-serif;
-    width: 690px;
+    width: 650px;
     color: #010f2f;
     margin: 0px 0px 8px;
+    padding-left: 50px;
   }
   .service-p {
     font-size: 20px;
     font-weight: 400;
     font-style: sans-serif;
-
-    width: 690px;
+    width: 600px;
     padding-top: 30px;
     padding-bottom: 20px;
     color: #010f2f;
+    padding-left: 50px;
   }
   .service-h5 {
     color: #fe8366;
     padding-top: 40px;
     font-style: sans-serif;
     font-size: 22px;
+    padding-left: 50px;
   }
   .service-a {
     text-decoration: none;
@@ -81,12 +84,60 @@
   .service-btn {
     text-decoration: none;
   }
+  .btn-service {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .service-p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: sans-serif;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #010f2f;
+    padding-left: 30px;
+  }
+  .service-h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: sans-serif;
+    width: 500px;
+    padding-left: 30px;
+    color: #010f2f;
+    margin: 0px 0px 8px;
+  }
+  .services-title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 50%;
+  }
+  .service-h5 {
+    color: #fe8366;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-style: sans-serif;
+    font-size: 22px;
+  }
+  .btn-service {
+    padding-left: 30px;
+  }
+  .container-box {
+    display: grid;
+    grid-template: auto auto / auto auto;
+    column-gap: 1px;
+    row-gap: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
 }
 /* mobile */
 @media (max-width: 320px) {
   .container-services {
     display: block;
-
     width: 290px;
   }
   .services {
@@ -97,8 +148,7 @@
     font-size: 30px;
     font-weight: 600;
     padding-top: 50px;
-    padding-left: 50px;
-    width: 50%;
+    width: 310px;
   }
   .services-box {
     border-radius: 10px;
@@ -131,10 +181,10 @@
   }
   .container-box {
     display: block;
-
     column-gap: 1px;
     row-gap: 20px;
     padding-top: 50px;
+    padding-left: 20px;
   }
   .service-h2 {
     font-size: 30px;
