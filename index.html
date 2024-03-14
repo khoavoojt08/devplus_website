@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devplus</title>
     <!-- Styles -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link href="css/slick.css" rel="stylesheet" />
+    <link href="css/responsive-testimonial.css" rel="stylesheet" />
     <link href="css/style-testimonial.css" rel="stylesheet" />
     <link href="css/styleheader.css" rel="stylesheet" />
     <link href="css/styleWatchus.css" rel="stylesheet" />
@@ -196,11 +202,15 @@
   <!-- testimonial-area -->
             <section
                 class="testimonial-area"
+                style=" background-image: url(img/testimonial/test-bg-aliments.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff7f5;"
             >
                 <div class="testi-container">
                     <div class="testi-row">
                         <div class="testi-col-left">
-                            <div class="about-title second-atitle pt-15">
+                            <div class="about-title-testi second-atitle pt-15">
                                 <h5>Testimonial</h5>
                                 <h2>See What Our <br />Client Say’s</h2>
                                 <p class="pt-15">
@@ -215,10 +225,18 @@
                         </div>
 
                         <div class="testi-col-right">
-                            <div class="testimonial-active">
-                                <div class="single-testimonial">
+                          
+
+</div>
+                            <div class="testimonial-active ">
+                                <div class="swiper slider-testi">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper  ">
+    <!-- Slides -->
+    <div class="swiper-slide ">
+      <div class="single-testimonial">
                                     <div class="testi-author">
-                                        <img
+                                        <img 
                                             src="img/testimonial/testi_avatar.png"
                                             alt="img"
                                         />
@@ -242,7 +260,8 @@
                                         varius massa non sem rutrum malesuada.
                                     </p>
                                 </div>
-                                <div class="single-testimonial">
+    </div>
+    <div class="swiper-slide"><div class="single-testimonial">
                                     <div class="testi-author">
                                         <img
                                             src="img/testimonial/testi_avatar.png"
@@ -267,8 +286,8 @@
                                         diam id augue fringilla ornare. Sed
                                         varius massa non sem rutrum malesuada.
                                     </p>
-                                </div>
-                                <div class="single-testimonial">
+                                </div></div>
+    <div class="swiper-slide"><div class="single-testimonial">
                                     <div class="testi-author">
                                         <img
                                             src="img/testimonial/testi_avatar.png"
@@ -293,7 +312,13 @@
                                         diam id augue fringilla ornare. Sed
                                         varius massa non sem rutrum malesuada.
                                     </p>
-                                </div>
+                                </div></div>
+                                ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+                                
+                                
                             </div>
                         </div>
                     </div>
@@ -301,5 +326,6 @@
             </section>
             <!-- testimonial-area-end -->
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./js/index.js"></script>
 </html>
