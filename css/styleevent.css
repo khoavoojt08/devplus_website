@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 /* up-eventes*/
-.eventes-area {
-  margin-top: 800px;
-}
+
 .container-event {
   display: flex;
   flex-direction: column;
@@ -118,6 +116,9 @@
 }
 
 @media (max-width: 768px) {
+  .eventes-area {
+  margin-top: 800px;
+}
   .row-event {
     grid-template-columns: repeat(1, 10fr);
   }
