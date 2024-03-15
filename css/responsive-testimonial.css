@@ -1,0 +1,74 @@
+@media (min-width: 1025px) and (max-width: 1500px) {
+    .testi-row {
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .single-testimonial {
+        width: 80%;
+    }
+
+    .testi-col-right,
+    .testi-col-right {
+        flex: 1;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .testi-row {
+        flex-direction: column;
+    }
+
+    .single-testimonial {
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .single-testimonial {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-title-testi {
+        font-size: 36px;
+        letter-spacing: -1px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .single-testimonial {
+        width: 400px;
+        height: 250px;
+    }
+
+    .testi-row {
+        margin-left: -60px;
+        padding-left: -20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for portrait phones go here */
+    .single-testimonial {
+        width: 250px;
+        height: 300px;
+    }
+
+    .testi-row {
+        margin-left: -40px;
+        padding-left: -20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* Styles for portrait phones go here */
+    .ta-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .single-testimonial {
+        width: 200px;
+        height: 400px;
+    }
+}
